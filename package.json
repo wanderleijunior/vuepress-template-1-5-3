@@ -1,0 +1,24 @@
+{
+  "name": "docs",
+  "version": "0.0.1",
+  "description": "Documentação {}",
+  "main": "index.js",
+  "authors": {
+    "name": "",
+    "email": ""
+  },
+  "repository": "",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "sass-loader": "^13.0.2",
+    "vuepress": "^1.5.3",
+    "bootstrap": "^5.2.0",
+    "bootstrap-vue": "^2.22.0",
+    "vuepress-plugin-container": "^2.1.5"
+  }
+}
