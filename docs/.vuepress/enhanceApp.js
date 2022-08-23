@@ -4,6 +4,8 @@ import camelCase from 'lodash/camelCase'
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
+import PageHome from './components/page/home/home.vue';
+
 export default ({
 	Vue, // the version of Vue being used in the VuePress app
 	options, // the options for the root Vue instance
@@ -36,4 +38,6 @@ export default ({
 			componentConfig.default || componentConfig
 		)
 	})
+
+	Vue.component('PageHome', PageHome);
 }
