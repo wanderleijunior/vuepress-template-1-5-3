@@ -5,7 +5,7 @@ module.exports = {
 	/**
 	 * Ref：https://v1.vuepress.vuejs.org/config/#title
 	 */
-	title: 'Titulo da Documentação',
+	title: 'Tutoriais',
 	/**
 	 * Ref：https://v1.vuepress.vuejs.org/config/#description
 	 */
@@ -19,7 +19,8 @@ module.exports = {
 	head: [
 		['meta', { name: 'theme-color', content: '#3eaf7c' }],
 		['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-		['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+		['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+		['link', { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css' }]
 	],
 
 	/**
@@ -35,26 +36,17 @@ module.exports = {
 		lastUpdated: false,
 		nav: [
 			{
-				text: 'Guide',
-				link: '/guide/',
-			},
-			{
-				text: 'Config',
-				link: '/config/'
-			},
-			{
-				text: 'VuePress',
-				link: 'https://v1.vuepress.vuejs.org'
+				text: 'Tutoriais',
+				link: '/tutoriais/',
 			}
 		],
 		sidebar: {
-			'/guide/': [
+			'/tutoriais/': [
 				{
-					title: 'Guide',
+					title: 'Tutoriais',
 					collapsable: false,
 					children: [
-						'',
-						'using-vue',
+						'zeedhi-next-zeedhi-angular',
 					]
 				}
 			],
