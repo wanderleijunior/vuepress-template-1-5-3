@@ -19,7 +19,7 @@ Aponte para o repositório remoto que for conveniente
 
 Instale as dependências
 ```bash
-npm instal
+npm install
 ```
 
 
